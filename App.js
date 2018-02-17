@@ -19,6 +19,7 @@ export default class App extends React.Component {
     this.refresh = this.refresh.bind(this)
     this.headers = this.headers.bind(this)
     this.getSecrets = this.getSecrets.bind(this)
+    this.clearSecrets = this.clearSecrets.bind(this)
     this.getSecrets();
   }
 
